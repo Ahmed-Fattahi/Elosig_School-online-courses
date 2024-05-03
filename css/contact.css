@@ -1,0 +1,83 @@
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    margin-bottom: 3.125rem;
+    margin-top: 30px;
+  }
+  
+  .contact .contactez-nous{
+    flex:1 1 35rem;
+    color: #151535;
+  }
+  
+  .contact .contactez-nous h3{
+    margin-bottom: 35px;
+    color:transparent;
+    background:#e5211b;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 4rem;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+  }
+  .contact .contactez-nous img{
+    width: 100%;    
+    border-radius:  4%;
+    margin-bottom: 30px;
+
+  }
+  
+  .contact form{
+    flex:1 1 50rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    padding:2rem;
+  }
+  
+  .contact form .inputBox{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .contact form .inputBox input,
+  .contact form .box, 
+  .contact form textarea{
+    width: 100%;
+    padding:1rem;
+    margin:.7rem 0;
+    font-size: 1.7rem;
+    border:.1rem solid rgba(0,0,0,.1);
+    border-radius: .5rem;
+    text-transform: none;
+    color:#333;
+  } 
+  
+  .contact form .inputBox input:focus,
+  .contact form .box:focus, 
+  .contact form textarea:focus{
+    border-color: #e5211b;
+  }
+
+  .contact form .inputBox input{
+    width:49%;
+  }
+  
+  .contact form textarea{
+    height: 20rem;
+    resize: none;
+  }
+  
+@media only screen and (max-width:600px){
+  .contact .contactez-nous{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contact .contactez-nous img{
+    width: 85%;
+    margin-bottom: 20px;
+  }
+}
+
