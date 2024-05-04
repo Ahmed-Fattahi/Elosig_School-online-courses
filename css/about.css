@@ -1,0 +1,73 @@
+  .about .president {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  .about .president img {
+    width: 143.438px;
+    height: 141.078px;
+    border: #151535 solid 2px;
+  }
+
+  .about .president .side2 {
+    margin-left: 15px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    font-size: large;
+    color: #e5211b;
+    justify-content: center;
+  }
+
+  .about .president .side2 h3 {
+    color: #151535;
+    margin-bottom: 10px;
+  }
+
+  .about .text {
+    max-width: 90%;
+  }
+
+  .about .text h3,
+  .about .partners h3 {
+    color: #e5211b;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 10px;
+  }
+
+  .about .text p {
+    padding: .5rem 0;
+    font-size: 2rem;
+    color: #151535;
+    margin-bottom: 30px;
+    line-height: 1.4;
+  }
+
+  .about .partners .logos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .partners .logos img {
+    width: 143.438px;
+    height: 141.078px;
+    margin: 20px;
+  }
+
+  .about .partners .logos img:hover {
+    width: 160px;
+    height: 160px;
+  }
+
+  @media only screen and (max-width:600px ){
+    .about .president .side2{
+      margin-top: 0;
+    }
+  }
